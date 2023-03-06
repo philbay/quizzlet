@@ -30,7 +30,6 @@ public function getConnexion()
     return $this->_connexion;
 }
 
-
 public function getAll()
 {
     $sql="select * from ". $this->table ;
